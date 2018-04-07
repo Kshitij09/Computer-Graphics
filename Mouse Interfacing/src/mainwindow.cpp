@@ -10,6 +10,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->label->setMouseTracking(true);
     connect(ui->label,SIGNAL(mouse_pos()),this,SLOT(mouse_pos()));
     connect(ui->label,SIGNAL(mouse_pressed()),this,SLOT(mouse_pressed()));
+    connect(ui->label,SIGNAL(mouse_released()),this,SLOT(mouse_released()));
     connect(ui->label,SIGNAL(mouse_right_clicked()),this,SLOT(mouse_right_clicked()));
     connect(ui->label,SIGNAL(mouse_left()),this,SLOT(mouse_left()));
 
@@ -31,6 +32,11 @@ void MainWindow::mouse_pos()
 void MainWindow::mouse_pressed()
 {
     ui->mouse_eve->setText(QString("Mouse Clicked !"));
+}
+
+void MainWindow::mouse_released()
+{
+    ui->mouse_eve->setText(QString("Mouse Released !"));
 }
 void MainWindow::mouse_right_clicked()
 {

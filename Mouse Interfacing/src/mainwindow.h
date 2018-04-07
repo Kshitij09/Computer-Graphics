@@ -18,6 +18,7 @@ public:
 private slots:
     void mouse_pos();
     void mouse_pressed();
+    void mouse_released();
     void mouse_right_clicked();
     void mouse_left();
 private:

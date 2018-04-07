@@ -13,6 +13,11 @@ void ClickLabel::mouseMoveEvent(QMouseEvent *event)
     emit mouse_pos();
 }
 
+void ClickLabel::mouseReleaseEvent(QMouseEvent *event)
+{
+    emit mouse_released();
+}
+
 void ClickLabel::mousePressEvent(QMouseEvent *event)
 {
     if (event->button() == Qt::RightButton)
