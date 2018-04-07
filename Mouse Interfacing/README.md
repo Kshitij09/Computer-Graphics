@@ -5,4 +5,4 @@
 1. leaveEvent      (QEvent)
 
 #### Output
-![Mouse co-ordinates](/Mouse Interfacing/mouse_1.png)
+![Mouse co-ordinates](Computer-Graphics/Mouse Interfacing/screenshots/mouse_1.png)
