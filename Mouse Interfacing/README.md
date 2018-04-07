@@ -5,4 +5,12 @@
 1. leaveEvent      (QEvent)
 
 #### Output
-![](screenshots/mouse_1.png)
+<p align="center">
+  <img src="screenshots/mouse_1.png" height = "300" width="450">
+  <img src="screenshots/mouse_2.png" height = "300" width="450">
+</p>
+<p align="center">
+  <img src="screenshots/mouse_3.png" height = "300" width="450">
+  <img src="screenshots/mouse_4.png" height = "300" width="450">
+</p>
+  
