@@ -3,5 +3,5 @@
 1. Bresenham Line Generation
 1. DDA Line Generation
 
-#### Outpput
+#### Output
 ![](screenshots/line_1.png)
