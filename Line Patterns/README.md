@@ -7,4 +7,4 @@
 1. Thick
 
 #### Output
-![](screenshots/linetypes_1.png)
+![](screenshots/linetype_1.png)
