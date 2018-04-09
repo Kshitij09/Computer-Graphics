@@ -37,7 +37,7 @@ public class Mandelbrot {
 				} else{
 					//Blown up
 					image.setRGB(col,row,black);
-				}					
+				}						
 			}
 		}
 		ImageIO.write(image,"png",new File("Mandelbrot.png"));
