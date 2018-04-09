@@ -4,5 +4,5 @@
 1. Bresenham Circle Generation
 1. DDA Circle Generation
 
-#### Outpput
+#### Output
 ![](screenshots/incircle_1.png)
